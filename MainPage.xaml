@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiComm_VerifyPopupStyle.MainPage">
+
+    <Grid RowDefinitions="44,44,44,44,44,*">
+        <Button Grid.Row="0" x:Name="btnPopup1" Text="Show Popup1" BackgroundColor="Blue" TextColor="White" Clicked="btnPopup1_Clicked" />
+        <Button Grid.Row="1" x:Name="btnPopup2" Text="Show Popup2" BackgroundColor="Blue" TextColor="White" Clicked="btnPopup2_Clicked" />
+        <Button Grid.Row="2" x:Name="btnPopup3" Text="Show Popup3" BackgroundColor="Blue" TextColor="White" Clicked="btnPopup3_Clicked" />
+        <Button Grid.Row="3" x:Name="btnPopup4" Text="Show Popup4" BackgroundColor="Blue" TextColor="White" Clicked="btnPopup4_Clicked" />
+        <Button Grid.Row="4" x:Name="btnPopup5" Text="Show Popup5" BackgroundColor="Blue" TextColor="White" Clicked="btnPopup5_Clicked" />
+    </Grid>
+    
+</ContentPage>
